@@ -1,0 +1,69 @@
+body, select {
+	font-family: Menlo, Consolas, Monaco, "Lucida Console", monospace;
+	font-size: 11px;
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.9);
+}
+
+body {
+	background-color: #f2f2f2;
+	color: #333;
+	min-width: 200px;
+	overflow-x: hidden;
+}
+
+select {
+	max-width: 300px;
+}
+
+div.category {
+	margin: 0 0 10px;
+}
+
+div.category label {
+  	display: block;
+}
+
+div.userPain {
+	padding: 10px;
+	background: #ddd;
+	font-weight: bold;
+	text-align: center;
+	font-size: 24px;
+	cursor: pointer;
+	position: relative;
+}
+
+div.userPain:hover {
+	background-color: #e0e0e0;
+}
+
+div.userPain:active {
+	background-color: #e8e8e8;
+	color: #666;
+}
+
+div.userPain .copyInfo {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	font-size: 9px;
+	text-align: right;
+}
+
+div.userPain .copyInfo.copy {
+	display: none;
+}
+
+div.userPain:hover .copyInfo.copy {
+	display: block;
+}
+
+div.userPain:active .copyInfo.copy {
+	display: none;
+}
+
+#sandbox {
+	position: absolute;
+	top: -100px;
+	left: -100px;
+}

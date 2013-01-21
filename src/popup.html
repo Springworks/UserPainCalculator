@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+  <head>
+    <title>User Pain Calculation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery.min.js"></script>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <form action="#">
+      <div class="category">
+        <label for="typeSelect">Type</label>
+        <select name="type" id="typeSelect">
+          <option value="7">7: Crash: Bug causes crash or data loss. Asserts in the Debug release.</option>
+          <option value="6">6: Major usability: Impairs usability in key scenarios.</option>
+          <option value="5">5: Minor usability: Impairs usability in secondary scenarios.</option>
+          <option value="4">4: Balancing: Enables degenerate usage strategies that harm the experience.</option>
+          <option value="3">3: Visual and Sound Polish: Aesthetic issues</option>
+          <option value="2">2: Localization.</option>
+          <option value="1">1: Documentation: A documentation issue.</option>
+        </select>
+      </div>
+      
+      <div class="category">
+        <label for="prioritySelect">Priority</label>
+        <select name="priority" id="prioritySelect">
+          <option value="5">5: Blocking further progress on the daily build.</option>
+          <option value="4">4: A User would return the product. Cannot RTM. The Team would hold the release for this bug.</option>
+          <option value="3">3: A User would likely not purchase the product. Will show up in review. Clearly a noticeable issue.</option>
+          <option value="2">2: A Pain &ndash; users won't like this once they notice it. A moderate number of users won't buy.</option>
+          <option value="1">1: Nuisance &ndash; not a big deal but noticeable. Extremely unlikely to affect sales.</option>
+        </select>
+      </div>
+      
+      <div class="category">
+        <label for="likelihoodSelect">Likelihood</label>
+        <select name="likelihood" id="likelihoodSelect">
+          <option value="5">5: Will affect all users.</option>
+          <option value="4">4: Will affect most users.</option>
+          <option value="3">3: Will affect average number of users.</option>
+          <option value="2">2: Will only affect a few users.</option>
+          <option value="1">1: Will affect almost no one.</option>
+        </select>  
+      </div>
+      
+      <div class="userPain">
+        <span id="userPainValue">?</span>%
+        <span class="copyInfo copy">Copy to clipboard</span>
+      </div>
+      <textarea id="sandbox"></textarea>
+    </form>
+  </body>
+</html>
+
