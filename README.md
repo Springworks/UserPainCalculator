@@ -3,7 +3,7 @@ UserPainCalculator
 
 A little Chrome Extension that helps calculate [User Pain](http://www.lostgarden.com/2008/05/improving-bug-triage-with-user-pain.html).
 
-![Screenshot of the 1.0 version.](https://github.com/Springworks/UserPainCalculator/blob/master/docs/screenshot.png)
+<a href="https://github.com/Springworks/UserPainCalculator/raw/misc/add-more-docs/docs/screenshot.png"><img src="https://github.com/Springworks/UserPainCalculator/raw/misc/add-more-docs/docs/screenshot.png" width="300" alt="Screenshot of the 1.0 version." /></a>
 
 Please contribute if you feel that something can be improved!
 
