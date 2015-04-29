@@ -9,3 +9,6 @@ Please contribute if you feel that something can be improved!
 
 ## Installation
 Clone the project or just download and install `UserPainCalculator.crx` in Chrome (Settings > Extensions) to use the extension. Google's got [some help](http://support.google.com/chrome/bin/answer.py?hl=en&answer=187443) on the matter too.
+
+## License
+Licensed under MIT.
